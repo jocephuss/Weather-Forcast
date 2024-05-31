@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Five Day Forcast</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Weather Forcast</title>
 </head>
+
 <body>
-    
+    <div id="weather-container">
+        <h2>Weather App</h2>
+        <input type="text" id="city" placeholder="Search City">
+        <button onclick="getWeather()">Search</button>
+        <img id="weather-icon" alt="weather icon">
+        <div id="temp"></div>
+        <div id="info"></div>
+        <div id="hourly"></div>
+    </div>
+
+    <script src="assets/script.js"></script>
 </body>
+
 </html>
