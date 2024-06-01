@@ -83,6 +83,7 @@ span {
 
 #hourly {
     margin-top: 50px;
+    margin: 5px;
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
